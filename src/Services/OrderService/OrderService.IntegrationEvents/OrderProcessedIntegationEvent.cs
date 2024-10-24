@@ -7,6 +7,8 @@ public record Address(string FirstName, string LastName, string EmailAddress, st
 
 public record OrderItem(Guid BookId, string Title, Guid SellerId, int Quantity, decimal Price);
 
+
+// Status of Orders
 public enum OrderStatus
 {
     Completed,
